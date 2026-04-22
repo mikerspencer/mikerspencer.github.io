@@ -1,0 +1,92 @@
+/*-- scss:defaults --*/
+
+$main: #008033;
+$blue: #3a71c5;
+$red: #d44000;
+$orange: #ee6331;
+$yellow: #e7b10a;
+$green: #72994e;
+$teal: #419599;
+$cyan: #75a8d9;
+$black: #000;
+$white: #fff;
+$gray: #404041;
+$gray-dark: #343a40;
+$gray-100: #f8f8f8;
+$gray-200: #c2c2c4;
+$gray-300: #949494;
+$gray-400: #707073;
+$gray-500: #495057;
+$gray-600: #404041;
+$gray-700: #333333;
+$gray-800: #242426;
+$gray-900: #151515;
+$default: $gray-900;
+$primary: $main;
+$secondary: shade-color($primary, 30%);
+$success: $green;
+$info: $yellow;
+$warning: $orange;
+$danger: $red;
+
+// Base document colors
+$light: rgb(32.4, 32.4, 34.2);
+$link-color: $secondary;
+$text-muted: #6a737b;
+
+// Navigation element colors
+$navbar-bg: shade-color($primary, 0%);
+$footer-bg: shade-color($primary, 70%);
+
+/*-- scss:rules --*/
+
+body.quarto-light .hero-banner {
+  background-color: rgba($primary, 0.2);
+}
+
+.hero-banner h1 {
+  font-size: 2.5rem;
+}
+
+body.quarto-light .hero-banner h1 {
+  color: $primary;
+}
+
+.layout-example {
+  background: $gray-500;
+  color: $white;
+  text-align: center;
+  margin-bottom: 1em;
+  font-family: $font-family-monospace;
+  font-size: .875em;
+  font-weight: 600;
+  padding-top: 1em;
+  border-radius: 3px;
+}
+
+.left {
+  text-align: left;
+  padding-left: 1em;
+}
+
+.right {
+  text-align: right;
+  padding-right: 1em;
+}
+
+.hello-quarto-banner h1 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+#quarto-announcement {
+  padding: 1em;
+  font-size: 1em;
+  font-weight: bold;
+  color: $white;
+  background-color: #447099;
+}
+
+#quarto-announcement a {
+  color: $white;
+}

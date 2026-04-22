@@ -1,0 +1,1578 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod. Tempor incididunt ut labore et dolore magnam aliquam quaerat voluptatem.">
+
+<title>Minimalist Quarto Theme – Rouze Theme</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href=".//asset/favicon.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-d0ae9245876894da5ac7e18953ecc5cc.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-d013c835a8db9e230e899e713e1dfece.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-d593a91cbca00ce52247af72829ceed8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-d013c835a8db9e230e899e713e1dfece.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "/"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-blog .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-blog'] = new List('listing-blog', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-project .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-project'] = new List('listing-project', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-slide .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-slide'] = new List('listing-slide', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+<style>html{ scroll-behavior: smooth; }</style>
+<script src="site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<link href="site_libs/leaflet-1.3.1/leaflet.css" rel="stylesheet">
+<script src="site_libs/leaflet-1.3.1/leaflet.js"></script>
+<link href="site_libs/leafletfix-1.0.0/leafletfix.css" rel="stylesheet">
+<script src="site_libs/proj4-2.6.2/proj4.min.js"></script>
+<script src="site_libs/Proj4Leaflet-1.0.1/proj4leaflet.js"></script>
+<link href="site_libs/rstudio_leaflet-1.3.1/rstudio_leaflet.css" rel="stylesheet">
+<script src="site_libs/leaflet-binding-2.2.3/leaflet.js"></script>
+<script src="site_libs/leaflet-providers-3.0.0/leaflet-providers.js"></script>
+<script src="site_libs/leaflet-providers-plugin-2.2.3/leaflet-providers-plugin.js"></script>
+
+
+<link rel="stylesheet" href="asset/styles/styles.css">
+<link rel="stylesheet" href="asset/styles/index.css">
+<link rel="alternate" type="application/rss+xml" title="Rouze Theme" href="index.xml" data-external="1"><meta property="og:title" content="Minimalist Quarto Theme – Rouze Theme">
+<meta property="og:description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod. Tempor incididunt ut labore et dolore magnam aliquam quaerat voluptatem.">
+<meta property="og:image" content="https://rouze.hervyqa.dev/asset/cover.webp">
+<meta property="og:site_name" content="Rouze Theme">
+<meta property="og:locale" content="en_US">
+<meta property="og:image:alt" content="Cover images">
+<meta name="twitter:title" content="Minimalist Quarto Theme – Rouze Theme">
+<meta name="twitter:description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod. Tempor incididunt ut labore et dolore magnam aliquam quaerat voluptatem.">
+<meta name="twitter:image" content="https://rouze.hervyqa.dev/asset/cover.webp">
+<meta name="twitter:creator" content="@username">
+<meta name="twitter:site" content="@username">
+<meta name="twitter:image:alt" content="Cover images">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+
+<body class="nav-fixed fullcontent quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./asset/logo.svg" alt="Rouze Theme" class="navbar-logo light-content">
+    <img src="./asset/logo.svg" alt="Rouze Theme" class="navbar-logo dark-content">
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="./index.html" aria-current="page"> <i class="bi bi-house-fill" role="img">
+</i> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-docs" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+      <i class="bi bi-file-earmark-code-fill" role="img">
+</i> 
+ <span class="menu-text">Docs</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-docs">    
+        <li>
+    <a class="dropdown-item" href="./docs/start/index.html"><i class="bi bi-journal-code" role="img">
+</i> 
+ <span class="dropdown-text">Start</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./docs/build/index.html"><i class="bi bi-code-slash" role="img">
+</i> 
+ <span class="dropdown-text">Build</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="./blog/index.html"> <i class="bi bi-book-fill" role="img">
+</i> 
+<span class="menu-text">Blog</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./project/index.html"> <i class="bi bi-briefcase-fill" role="img">
+</i> 
+<span class="menu-text">Project</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./slide/index.html"> <i class="bi bi-easel-fill" role="img">
+</i> 
+<span class="menu-text">Slide</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+      <i class="bi bi-person-fill" role="img">
+</i> 
+ <span class="menu-text">About</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-about">    
+        <li>
+    <a class="dropdown-item" href="./author/index.html"><i class="bi bi-file-person-fill" role="img">
+</i> 
+ <span class="dropdown-text">Author</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./about/index.html"><i class="bi bi-people-fill" role="img">
+</i> 
+ <span class="dropdown-text">About Us</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-language" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+      <i class="bi bi-translate" role="img">
+</i> 
+ <span class="menu-text">Language</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-language">    
+        <li>
+    <a class="dropdown-item" href="./index.html"><i class="bi bi-gear-fill" role="img">
+</i> 
+ <span class="dropdown-text">English</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./../fr"><i class="bi bi-gear-fill" role="img">
+</i> 
+ <span class="dropdown-text">French</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./../id"><i class="bi bi-gear-fill" role="img">
+</i> 
+ <span class="dropdown-text">Indonesia</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./../ja"><i class="bi bi-gear-fill" role="img">
+</i> 
+ <span class="dropdown-text">Japanese</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools tools-wide">
+    <a href="https://mastodon.social/@username" title="Mastodon" class="quarto-navigation-tool px-1" aria-label="Mastodon" target="_blank"><i class="bi bi-mastodon"></i></a>
+    <a href="https://git.sr.ht/~username/repository" title="Sourcehut" class="quarto-navigation-tool px-1" aria-label="Sourcehut" target="_blank"><i class="bi bi-git"></i></a>
+    <a href="./blog/index.xml" title="Feed RSS" class="quarto-navigation-tool px-1" aria-label="Feed RSS" target="_blank"><i class="bi bi-rss-fill"></i></a>
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default">
+  <div class="quarto-title-banner">
+    <div class="quarto-title column-body">
+      <h1 class="title">Minimalist Quarto Theme</h1>
+                  <div>
+        <div class="description">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod. Tempor incididunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+        </div>
+      </div>
+                </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-layout-custom page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+<!-- main -->
+
+
+
+
+
+
+<!-- HERO -->
+<div class="hero-banner">
+<div class="content-block">
+<!-- left side -->
+<section id="welcome-to-rouze-theme" class="level1 mt-1 hero-text">
+<h1 class="mt-1">Welcome to Rouze Theme</h1>
+<section id="free-quarto-starter-for-website-project" class="level3">
+<h3 data-anchor-id="free-quarto-starter-for-website-project">Free Quarto starter for website project</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod. Tempor incididunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+<ul>
+<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</li>
+<li>Tempor incididunt ut labore et dolore magnam aliquam quaerat voluptatem.</li>
+</ul>
+</section>
+<section id="lorem-ipsum-accessio-potest" class="level3">
+<h3 data-anchor-id="lorem-ipsum-accessio-potest">Lorem Ipsum Accessio Potest</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod. Tempor incididunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+<div class="grid gap-3 pb-3 pt-4">
+<div class="g-col-12 g-col-sm-4">
+<p><a href="./docs/start/index.html" class="btn-primary btn-action btn btn-lg btn-block w-100 rounded" role="button"><i class="bi bi-arrow-right-circle-fill me-2"></i> Start!</a></p>
+</div>
+<div class="g-col-12 g-col-sm-4 mb-2">
+<p><a href="./docs/start/index.html" id="btn-guide" class="btn-secondary btn-action btn btn-lg btn-block w-100 rounded" role="button"><i class="bi bi-rocket-takeoff-fill me-2"></i> Guide</a></p>
+</div>
+</div>
+</section>
+</section>
+<!-- left side close -->
+<!-- right side -->
+<div class="hero-animation">
+<div class="light-content">
+<p><img src="asset/banner_light.webp" class="img-fluid" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit."></p>
+</div>
+<div class="dark-content">
+<p><img src="asset/banner_dark.webp" class="img-fluid" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit."></p>
+</div>
+</div>
+<!-- right side close -->
+</div>
+</div>
+<!-- /HERO -->
+<!-- INTRO -->
+<div class="hello-quarto alt-background">
+<section id="hello-everyone" class="level2 content-block mt-2 pt-4 pb-2">
+<h2 data-anchor-id="hello-everyone">Hello, Everyone</h2>
+<div class="grid gap-3">
+<div class="g-col-md-11 g-col-12 mb-0">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+</div>
+<div class="g-col-sm-6 g-col-12">
+<p><img src="asset/cover.webp" class="img-fluid" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit."></p>
+</div>
+<div class="g-col-sm-6 g-col-12">
+<p><img src="asset/cover.webp" class="img-fluid" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit."></p>
+</div>
+</div>
+</section>
+</div>
+<!-- /INTRO -->
+<!-- FEATURES -->
+<div class="content-block">
+<div class="features">
+<section id="lorem-ipsum" class="level3 feature">
+<h3 data-anchor-id="lorem-ipsum"><i class="bi bi-gear-fill me-2"></i> Lorem ipsum</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+<div class="learn-more">
+<p><a href="./docs/start/index.html">Learn more »</a></p>
+</div>
+</section>
+<section id="lorem-ipsum-1" class="level3 feature">
+<h3 data-anchor-id="lorem-ipsum-1"><i class="bi bi-gear-fill me-2"></i> Lorem ipsum</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+<div class="learn-more">
+<p><a href="./docs/start/index.html">Learn more »</a></p>
+</div>
+</section>
+<section id="lorem-ipsum-2" class="level3 feature">
+<h3 data-anchor-id="lorem-ipsum-2"><i class="bi bi-gear-fill me-2"></i> Lorem ipsum</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+<div class="learn-more">
+<p><a href="./docs/start/index.html">Learn more »</a></p>
+</div>
+</section>
+<section id="lorem-ipsum-3" class="level3 feature">
+<h3 data-anchor-id="lorem-ipsum-3"><i class="bi bi-gear-fill me-2"></i> Lorem ipsum</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+<div class="learn-more">
+<p><a href="./docs/start/index.html">Learn more »</a></p>
+</div>
+</section>
+<section id="lorem-ipsum-4" class="level3 feature">
+<h3 data-anchor-id="lorem-ipsum-4"><i class="bi bi-gear-fill me-2"></i> Lorem ipsum</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+<div class="learn-more">
+<p><a href="./docs/start/index.html">Learn more »</a></p>
+</div>
+</section>
+<section id="lorem-ipsum-5" class="level3 feature">
+<h3 data-anchor-id="lorem-ipsum-5"><i class="bi bi-gear-fill me-2"></i> Lorem ipsum</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+<div class="learn-more">
+<p><a href="./docs/start/index.html">Learn more »</a></p>
+</div>
+</section>
+</div>
+</div>
+<!-- /FEATURES -->
+<!-- GET STARTED -->
+<div class="hello-quarto alt-background">
+<div class="content-block">
+<section id="get-started" class="level2 hero-text">
+<h2 data-anchor-id="get-started">Get started</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+</section>
+<div class="grid gap-3 pt-4">
+<div class="g-col-2">
+
+</div>
+<div class="g-col-12 g-col-sm-4">
+<p><a href="./docs/start/index.html" class="btn-primary btn-action btn btn-lg btn-block w-100 rounded" role="button"><i class="bi bi-arrow-right-circle-fill me-2"></i> Join!</a></p>
+</div>
+<div class="g-col-12 g-col-sm-4 mb-2">
+<p><a href="./docs/start/index.html" id="btn-guide" class="btn-secondary btn-action btn btn-lg btn-block w-100 rounded" role="button"><i class="bi bi-rocket-takeoff-fill me-2"></i> See benefit</a></p>
+</div>
+<div class="g-col-2">
+
+</div>
+</div>
+</div>
+</div>
+<!-- /GET STARTED -->
+<!-- BLOG -->
+<section id="whats-new" class="level2 content-block">
+<h2 data-anchor-id="whats-new">What’s new?</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+<div id="listing-blog" class="pb-3 pt-4 quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="QmxvZw==" data-listing-date-sort="1769644800000" data-listing-file-modified-sort="1775831860197" data-listing-date-modified-sort="1769644800000" data-listing-reading-time-sort="1" data-listing-word-count-sort="89">
+<a href="./blog/sample-blog-1/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./blog/sample-blog-1/cover.webp" class="thumbnail-image card-img" style="height: 150px;" alt="Cover images">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Sample Blog 1
+</h5>
+<div class="card-text listing-description delink">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod. Tempor incididunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Julie Ann
+</div>
+<div class="listing-date">
+Jan 29, 2026
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="QmxvZw==" data-listing-date-sort="1769644800000" data-listing-file-modified-sort="1775831860198" data-listing-date-modified-sort="1769644800000" data-listing-reading-time-sort="1" data-listing-word-count-sort="89">
+<a href="./blog/sample-blog-2/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./blog/sample-blog-2/cover.webp" class="thumbnail-image card-img" style="height: 150px;" alt="Cover images">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Sample Blog 2
+</h5>
+<div class="card-text listing-description delink">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod. Tempor incididunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Cecilia Lee
+</div>
+<div class="listing-date">
+Jan 29, 2026
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="QmxvZw==" data-listing-date-sort="1769644800000" data-listing-file-modified-sort="1775831860198" data-listing-date-modified-sort="1769644800000" data-listing-reading-time-sort="1" data-listing-word-count-sort="89">
+<a href="./blog/sample-blog-3/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./blog/sample-blog-3/cover.webp" class="thumbnail-image card-img" style="height: 150px;" alt="Cover images">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Sample Blog 3
+</h5>
+<div class="card-text listing-description delink">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod. Tempor incididunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Lexi Rosa
+</div>
+<div class="listing-date">
+Jan 29, 2026
+</div>
+</div>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</section>
+<!-- /BLOG -->
+<!-- PROJECT -->
+<section id="latest-works" class="level2 content-block">
+<h2 data-anchor-id="latest-works">Latest works</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+<div id="listing-project" class="pb-3 pt-4 quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="UHJvamVjdA==" data-listing-date-sort="1769644800000" data-listing-file-modified-sort="1775831860200" data-listing-date-modified-sort="1769644800000" data-listing-reading-time-sort="1" data-listing-word-count-sort="89">
+<a href="./project/sample-project-1/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./project/sample-project-1/cover.webp" class="thumbnail-image card-img" style="height: 150px;" alt="Cover images">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Sample Project 1
+</h5>
+<div class="card-text listing-description delink">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod. Tempor incididunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Julie Ann
+</div>
+<div class="listing-date">
+Jan 29, 2026
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="UHJvamVjdA==" data-listing-date-sort="1769644800000" data-listing-file-modified-sort="1775831860200" data-listing-date-modified-sort="1769644800000" data-listing-reading-time-sort="1" data-listing-word-count-sort="89">
+<a href="./project/sample-project-2/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./project/sample-project-2/cover.webp" class="thumbnail-image card-img" style="height: 150px;" alt="Cover images">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Sample Project 2
+</h5>
+<div class="card-text listing-description delink">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod. Tempor incididunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Cecilia Lee
+</div>
+<div class="listing-date">
+Jan 29, 2026
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="UHJvamVjdA==" data-listing-date-sort="1769644800000" data-listing-file-modified-sort="1775831860201" data-listing-date-modified-sort="1769644800000" data-listing-reading-time-sort="1" data-listing-word-count-sort="89">
+<a href="./project/sample-project-3/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./project/sample-project-3/cover.webp" class="thumbnail-image card-img" style="height: 150px;" alt="Cover images">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Sample Project 3
+</h5>
+<div class="card-text listing-description delink">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod. Tempor incididunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Lexi Rosa
+</div>
+<div class="listing-date">
+Jan 29, 2026
+</div>
+</div>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</section>
+<!-- /PROJECT -->
+<!-- SLIDE -->
+<section id="spotlight-slide" class="level2 content-block">
+<h2 data-anchor-id="spotlight-slide">Spotlight slide</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+<div id="listing-slide" class="pb-3 pt-4 quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="U2xpZGU=" data-listing-date-sort="1769644800000" data-listing-file-modified-sort="1775831860202" data-listing-date-modified-sort="1769644800000" data-listing-reading-time-sort="1" data-listing-word-count-sort="96">
+<a href="./slide/sample-slide-1/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./slide/sample-slide-1/cover.webp" class="thumbnail-image card-img" style="height: 150px;" alt="Cover images">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Sample Slide 1
+</h5>
+<div class="card-text listing-description delink">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod. Tempor incididunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Julie Ann
+</div>
+<div class="listing-date">
+Jan 29, 2026
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="U2xpZGU=" data-listing-date-sort="1769644800000" data-listing-file-modified-sort="1775831860202" data-listing-date-modified-sort="1769644800000" data-listing-reading-time-sort="1" data-listing-word-count-sort="96">
+<a href="./slide/sample-slide-2/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./slide/sample-slide-2/cover.webp" class="thumbnail-image card-img" style="height: 150px;" alt="Cover images">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Sample Slide 2
+</h5>
+<div class="card-text listing-description delink">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod. Tempor incididunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Cecilia Lee
+</div>
+<div class="listing-date">
+Jan 29, 2026
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="U2xpZGU=" data-listing-date-sort="1769644800000" data-listing-file-modified-sort="1775831860202" data-listing-date-modified-sort="1769644800000" data-listing-reading-time-sort="1" data-listing-word-count-sort="96">
+<a href="./slide/sample-slide-3/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./slide/sample-slide-3/cover.webp" class="thumbnail-image card-img" style="height: 150px;" alt="Cover images">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Sample Slide 3
+</h5>
+<div class="card-text listing-description delink">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod. Tempor incididunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Lexi Rosa
+</div>
+<div class="listing-date">
+Jan 29, 2026
+</div>
+</div>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</section>
+<!-- /SLIDE -->
+<!-- SPONSOR -->
+<div class="content-block mt-2 pt-4 pb-2">
+<section id="gold-sponsor" class="level3 text-center">
+<h3 data-anchor-id="gold-sponsor">Gold Sponsor</h3>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="index_files/figure-html/sponsor-gold-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="770"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="silver-sponsor" class="level3 text-center">
+<h3 data-anchor-id="silver-sponsor">Silver Sponsor</h3>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="index_files/figure-html/sponsor-silver-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="968"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="bronze-sponsor" class="level3 text-center">
+<h3 data-anchor-id="bronze-sponsor">Bronze Sponsor</h3>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="index_files/figure-html/sponsor-bronze-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="1102"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+</div>
+<!-- /SPONSOR -->
+<!-- FAQ -->
+<section id="faq" class="level2 content-block">
+<h2 data-anchor-id="faq">FAQ!</h2>
+<div class="g-col-md-11 g-col-12 mb-0">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+</div>
+<div class="faqs">
+<div class="faq">
+<div class="callout callout-style-simple callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Lorem ipsum dolor sit amet?
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="faq">
+<div class="callout callout-style-simple callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Lorem ipsum dolor sit amet?
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="faq">
+<div class="callout callout-style-simple callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Lorem ipsum dolor sit amet?
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="faq">
+<div class="callout callout-style-simple callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Lorem ipsum dolor sit amet?
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="faq">
+<div class="callout callout-style-simple callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Lorem ipsum dolor sit amet?
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-5" class="callout-5-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="faq">
+<div class="callout callout-style-simple callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Lorem ipsum dolor sit amet?
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-6" class="callout-6-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- /FAQ -->
+<!-- MAP -->
+<div class="cell">
+<div class="cell-output-display">
+<div id="htmlwidget-796874c4b0ddfcfcae44" style="width:100%;height:386px;" class="leaflet html-widget"></div>
+<script type="application/json" data-for="htmlwidget-796874c4b0ddfcfcae44">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addProviderTiles","args":["OpenStreetMap.Mapnik",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addMarkers","args":[-7.552141,112.617894,{"iconUrl":{"data":"data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTIuMzU5IiBoZWlnaHQ9IjYyLjg2OSIgdmVyc2lvbj0iMS4xIiB2aWV3Qm94PSIwIDAgMTMuODUzIDE2LjYzNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KIDxnIHRyYW5zZm9ybT0ibWF0cml4KC4xMjUgMCAwIC4xMjUgLjMxMTk3IC43NTkzNykiPgogIDxwYXRoIGQ9Im0yMS4xNjYgMWUtNmMxOS41NTUtOC4wOTk5IDQzLjk0My04LjA5OTkgNjMuNDk4IDAgOS4yMTgyIDMuODE4MyAxOC4xMjEgMTEuNjY0IDIxLjE2NiAyMS4xNjYgNi41NDg1IDIwLjQzNC0wLjc2NDIzIDQ0LjQxOC0xMC41ODMgNjMuNDk4LTkuMTMxMyAxNy43NDQtMzEuMDM4IDQyLjMzMi00Mi4zMzIgNDIuMzMycy0zMy4yMDEtMjQuNTg4LTQyLjMzMi00Mi4zMzJjLTkuODE4OC0xOS4wOC0xNy4xMzEtNDMuMDY0LTEwLjU4My02My40OTggMy4wNDUtOS41MDE4IDExLjk0OC0xNy4zNDggMjEuMTY2LTIxLjE2NnoiIGZpbGw9IiMwMDgwMzMiIHN0cm9rZS13aWR0aD0iMS4wNTgzIiBzdHlsZT0icGFpbnQtb3JkZXI6c3Ryb2tlIGZpbGwgbWFya2VycyIvPgogIDxnIHRyYW5zZm9ybT0ibWF0cml4KDEuMjA2OSwwLDAsMS4yMDY5LC0xNDkuMDUsLTEwLjUzNykiIGZpbGw9IiNmZGNmNzQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLXdpZHRoPSIxLjcxOTciPgogICA8cGF0aCB0cmFuc2Zvcm09InRyYW5zbGF0ZSgyOS4xMDMpIiBkPSJtMTM0LjkzIDM4LjM2M3Y5LjI2MDFoLTkuMjYwMWExNS44NzQgMTUuODc0IDEzNSAwIDAtMTUuODc0IDE1Ljg3NHYzZS02YTE1Ljg3NCAxNS44NzQgNDUgMCAwIDE1Ljg3NCAxNS44NzQgMTUuODc0IDE1Ljg3NCAxMzUgMCAwIDE1Ljg3NC0xNS44NzR2LTkuMjYwMWg5LjI2MDFhMTUuODc0IDE1Ljg3NCAxMzUgMCAwIDE1Ljg3NC0xNS44NzR2LTRlLTZhMTUuODc0IDE1Ljg3NCA0NSAwIDAtMTUuODc0LTE1Ljg3NCAxNS44NzUgMTUuODc1IDEzNSAwIDAtMTUuODc0IDE1Ljg3NXptMTUuODc0LTkuMjYwMWE5LjI2MDEgOS4yNjAxIDQ1IDAgMSA5LjI2MDEgOS4yNjAxIDkuMjYwMSA5LjI2MDEgMTM1IDAgMS05LjI2MDEgOS4yNjAxaC05LjI2MDF2LTkuMjYwMWE5LjI2MDEgOS4yNjAxIDEzNSAwIDEgOS4yNjAxLTkuMjYwMXptLTI1LjEzNSAyNS4xMzVoOS4yNjAxdjkuMjYwMWE5LjI2MDEgOS4yNjAxIDEzNSAwIDEtOS4yNjAxIDkuMjYwMWgtMWUtNWE5LjI2MDEgOS4yNjAxIDQ1IDAgMS05LjI2MDEtOS4yNjAxIDkuMjYwMSA5LjI2MDEgMTM1IDAgMSA5LjI2MDEtOS4yNjAxeiIgc3R5bGU9InBhaW50LW9yZGVyOnN0cm9rZSBmaWxsIG1hcmtlcnMiLz4KICAgPHBhdGggZD0ibTE1MC44MSAyNi40NThhNy45MzczIDcuOTM3MyAwIDAgMC03LjkzNzIgNy45MzcyIDcuOTM3MyA3LjkzNzMgMCAwIDAgNy45MzcyIDcuOTM3MiA3LjkzNzMgNy45MzczIDAgMCAwIDcuOTM3Mi03LjkzNzIgNy45MzczIDcuOTM3MyAwIDAgMC03LjkzNzItNy45Mzcyem0wIDUuMjkxNWEyLjY0NTggMi42NDU4IDAgMCAxIDIuNjQ1OCAyLjY0NTggMi42NDU4IDIuNjQ1OCAwIDAgMS0yLjY0NTggMi42NDU4IDIuNjQ1OCAyLjY0NTggMCAwIDEtMi42NDU4LTIuNjQ1OCAyLjY0NTggMi42NDU4IDAgMCAxIDIuNjQ1OC0yLjY0NTh6IiBzdHlsZT0icGFpbnQtb3JkZXI6c3Ryb2tlIGZpbGwgbWFya2VycyIvPgogICA8cGF0aCB0cmFuc2Zvcm09InNjYWxlKC0xKSIgZD0ibS0xODMuODgtNTkuNTI5YTcuOTM3MyA3LjkzNzMgMCAwIDAgNy45MzczLTcuOTM3MiA3LjkzNzMgNy45MzczIDAgMCAwLTcuOTM3My03LjkzNzIgNy45MzczIDcuOTM3MyAwIDAgMC03LjkzNzIgNy45MzcyIDcuOTM3MyA3LjkzNzMgMCAwIDAgNy45MzcyIDcuOTM3MnptMC01LjI5MTVhMi42NDU4IDIuNjQ1OCAwIDAgMS0yLjY0NTctMi42NDU4IDIuNjQ1OCAyLjY0NTggMCAwIDEgMi42NDU3LTIuNjQ1OCAyLjY0NTggMi42NDU4IDAgMCAxIDIuNjQ1OCAyLjY0NTggMi42NDU4IDIuNjQ1OCAwIDAgMS0yLjY0NTggMi42NDU4eiIgc3R5bGU9InBhaW50LW9yZGVyOnN0cm9rZSBmaWxsIG1hcmtlcnMiLz4KICA8L2c+CiA8L2c+Cjwvc3ZnPgo=","index":0},"iconWidth":[40,40],"iconHeight":[40,40]},null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},"<b>Ngoro, Mojokerto<\/b><br>East Java, Indonesia",null,null,null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"limits":{"lat":[-7.552141,-7.552141],"lng":[112.617894,112.617894]}},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+<!-- /MAP -->
+<!-- CONTACT -->
+<div class="hello-quarto alt-background">
+<section id="get-in-touch" class="level1 mt-1 content-block mt-2 pt-4 pb-2">
+<h1 class="mt-1">Get in Touch!</h1>
+<div class="grid gap-4">
+<div class="g-col-12 g-col-sm-7">
+<form action="https://formspree.io/f/xxxxxxxx" method="POST">
+
+  <div class="form-group mb-3">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="Name" class="form-control" required="">
+  </div>
+
+  <div class="form-grid-2">
+    <div class="form-group mb-3">
+      <label for="email">Email</label>
+      <div class="input-group">
+        <span class="input-group-text bi bi-envelope">
+        </span>
+        <input type="email" id="email" name="Email" class="form-control" required="">
+      </div>
+    </div>
+
+    <div class="form-group mb-3">
+      <label for="phone">Phone Number</label>
+      <div class="input-group">
+        <span class="input-group-text bi bi-telephone">
+        </span>
+        <input type="tel" id="phone" name="Phone Number" class="form-control" required="">
+      </div>
+    </div>
+  </div>
+
+  <div class="form-group mb-3">
+    <label for="message">Message</label>
+    <textarea id="message" name="Message" rows="3" class="form-control" required=""></textarea>
+  </div>
+
+  <div class="form-check mb-3">
+    <input class="form-check-input" type="checkbox" id="gridCheck" required="">
+    <label class="form-check-label ms-2" for="gridCheck">
+      I agreed with terms and privacy.
+    </label>
+  </div>
+
+  <button type="submit" class="btn-primary btn-action btn btn-lg btn-block w-100 rounded
+      role=" button""="">
+    <i class="bi bi-arrow-right-circle-fill me-2"></i>Submit
+  </button>
+</form>
+</div>
+<section id="free-quarto-starter-for-website-project-1" class="level3 g-col-12 g-col-sm-5">
+<h3 data-anchor-id="free-quarto-starter-for-website-project-1">Free Quarto starter for website project</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+<p><i class="bi bi-geo-alt-fill me-2"></i> Office Center</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+<p><i class="bi bi-geo-alt-fill me-2"></i> Community</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+</section>
+</div>
+</section>
+</div>
+<!-- /CONTACT -->
+
+
+
+
+
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/rouze\.hervyqa\.dev");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p><i class="bi bi-c-circle"></i> 2026 By Rouze Theme <br><i class="bi bi-envelope-at-fill"></i> Email: <a href="mailto:your.mail@company.org">your.mail@company.org</a> <br><i class="bi bi-geo-alt-fill"></i> Mojokerto, East Java, Indonesia. 61385</p>
+</div>   
+    <div class="nav-footer-center">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="./about/index.html">
+<p>About</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="./terms/index.html">
+<p>Terms</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="./privacy/index.html">
+<p>Privacy</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="./license/index.html">
+<p>License</p>
+</a>
+  </li>  
+</ul>
+    </div>
+    <div class="nav-footer-right">
+<p>Built with <a href="https://www.r-project.org">R</a> &amp; <a href="https://quarto.org">Quarto</a>. <br> Licensed under <a href="https://creativecommons.org/licenses/by-nc/4deed.id">CC BY-NC 4.0</a>. <br> <img src="./asset/by-nc.svg" class="img-fluid" alt="cc-by-nc"></p>
+</div>
+  </div>
+</footer>
+
+
+
+
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>

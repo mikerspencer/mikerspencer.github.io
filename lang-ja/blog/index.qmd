@@ -1,0 +1,34 @@
+---
+title: "Blog"
+description: |
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.
+  Tempor incididunt ut labore et dolore magnam aliquam quaerat voluptatem.
+image: "cover.webp"
+image-alt: "Cover images"
+listing:
+  - id: blog
+    contents: "**/*.qmd"
+    sort: "date desc"
+    type: default
+    categories: true
+    sort-ui: true
+    filter-ui: true
+    feed: true
+    page-size: 8
+    fields:
+      - title
+      - subtitle
+      - author
+      - description
+      - date
+      - image
+      - reading-time
+page-layout: full
+title-block-banner: true
+title-block-banner-color: body
+citation: false
+citeproc: false
+toc: false
+draft: false
+---
+

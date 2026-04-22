@@ -1,0 +1,185 @@
+project:
+  type: website
+  output-dir: ../_site/fr
+  preview:
+    port: 4200
+    browser: false
+  resources:
+    - robots.txt
+lang: "fr"
+website:
+  title: "Rouze Theme"
+  site-url: https://rouze.hervyqa.dev/fr
+  open-graph:
+    locale: fr_FR
+  image: asset/cover.webp
+  twitter-card:
+    creator: "@username"
+    site: "@username"
+  favicon: /asset/favicon.png
+  repo-url: https://git.sr.ht/~username/repository
+  repo-branch: main
+  repo-link-target: _blank
+  back-to-top-navigation: false
+  page-navigation: true
+  search:
+    location: navbar
+    type: textbox
+    keyboard-shortcut: ["/"]
+  navbar:
+    background: dark
+    logo: asset/logo.svg
+    logo-alt: "Rouze Theme"
+    title: false
+    collapse-below: lg
+    tools:
+      - icon: mastodon
+        href: "https://mastodon.social/@username"
+        target: "_blank"
+        text: Mastodon
+      - icon: git
+        href: "https://git.sr.ht/~username/repository"
+        target: "_blank"
+        text: Sourcehut
+      - icon: rss-fill
+        href: blog/index.xml
+        target: "_blank"
+        text: Flux RSS
+    left:
+      - icon: house-fill
+        href: index.qmd
+        text: Page d'accueil
+      - icon: file-earmark-code-fill
+        text: Docs
+        menu:
+          - icon: journal-code
+            text: Commencer
+            href: docs/start/index.qmd
+          - icon: code-slash
+            text: Construire
+            href: docs/build/index.qmd
+      - icon: book-fill
+        text: Blogue
+        href: blog/index.qmd
+      - icon: briefcase-fill
+        text: Projet
+        href: project/index.qmd
+      - icon: easel-fill
+        text: Glisser
+        href: slide/index.qmd
+      - icon: person-fill
+        text: À propos
+        menu:
+          - icon: file-person-fill
+            text: Auteur
+            href: author/index.qmd
+          - icon: people-fill
+            text: À propos de nous
+            href: about/index.qmd
+    right:
+      - icon: translate
+        text: Langues
+        menu:
+          - icon: gear-fill
+            text: English
+            href: ..
+          - icon: gear-fill
+            text: French
+            href: ../fr
+          - icon: gear-fill
+            text: Indonesia
+            href: ../id
+          - icon: gear-fill
+            text: Japanese
+            href: ../ja
+  sidebar:
+    - id: "start"
+      title: "Start"
+      style: "docked"
+      collapse-level: 2
+      align: left
+      contents:
+        - text: Start
+          href: docs/start/index.qmd
+        - section: "Start"
+          contents:
+            - docs/start/quarto-1/index.qmd
+            - docs/start/quarto-2/index.qmd
+        - section: "Deploy"
+          contents:
+            - docs/deploy/quarto-1/index.qmd
+            - docs/deploy/quarto-2/index.qmd
+    - id: "build"
+      title: "Build"
+      style: "docked"
+      collapse-level: 2
+      align: left
+      contents:
+        - text: Build
+          href: docs/build/index.qmd
+        - section: "Product"
+          contents:
+            - docs/product/quarto-1/index.qmd
+            - docs/product/quarto-2/index.qmd
+        - section: "Service"
+          contents:
+            - docs/service/quarto-1/index.qmd
+            - docs/service/quarto-2/index.qmd
+  page-footer:
+    left: |
+      <i class="bi bi-c-circle"></i> 2026 par Rouze Theme
+      <br><i class="bi bi-envelope-at-fill"></i> Email: [your.mail@company.org](mailto:your.mail@company.org)
+      <br><i class="bi bi-geo-alt-fill"></i> Mojokerto, East Java, Indonesia. 61385
+    center:
+      - text: À propos
+        href: about/index.qmd
+      - text: Termes
+        href: terms/index.qmd
+      - text: Confidentialité
+        href: privacy/index.qmd
+      - text: Licence
+        href: license/index.qmd
+    right: |
+      Construit avec [R](https://www.r-project.org) & [Quarto](https://quarto.org).
+      <br> Sous licence [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.id).
+      <br> ![cc-by-nc](/asset/by-nc.svg)
+bibliography: asset/bib/references.bib
+format:
+  html:
+    theme:
+      light:
+        - cosmo
+        - brand
+        - asset/styles/theme.scss
+      dark:
+        - cosmo
+        - brand
+        - asset/styles/theme-dark.scss
+    css: asset/styles/styles.css
+    font:
+      mainfont: system-ui
+    toc: true
+    grid:
+      sidebar-width: 250px
+      body-width: 900px
+      margin-width: 300px
+    mermaid:
+      theme: default
+      respect-user-color-scheme: true
+    from: markdown+emoji
+    code-copy: true
+    code-overflow: scroll
+    smooth-scroll: true
+    lightbox: true
+    citation-location: document
+    citation: true
+    citeproc: true
+    footnotes-hover: true
+    link-external-newwindow: true
+    number-sections: true
+    reference-location: document
+    html-math-method:
+      method: mathml
+editor: visual
+execute:
+  freeze: false

@@ -1,0 +1,5 @@
+format:
+  html:
+    number-sections: false
+    citation: false
+    citeproc: false

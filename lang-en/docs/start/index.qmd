@@ -1,0 +1,12 @@
+---
+title: "Start"
+image: "cover.webp"
+image-alt: "Cover images"
+listing:
+  id: start-docs
+  template: ../../ejs/links.ejs
+  contents: start.yml
+draft: false
+---
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magnam aliquam quaerat voluptatem.

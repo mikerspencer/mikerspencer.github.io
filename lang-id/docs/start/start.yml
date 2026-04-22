@@ -1,0 +1,33 @@
+- title: "Start"
+  subtitle: "Subtitle Start"
+  links:
+    - text: "How to Start 1"
+      href: ../../docs/start/quarto-1/index.qmd
+    - text: "How to Start 2"
+      href: ../../docs/start/quarto-2/index.qmd
+    - text: "How to Deploy 1"
+      href: ../../docs/deploy/quarto-1/index.qmd
+    - text: "How to Deploy 2"
+      href: ../../docs/deploy/quarto-2/index.qmd
+- title: "Installation"
+  subtitle: "Subtitle Installation"
+  links:
+    - text: "How to Start 1"
+      href: ../../docs/start/quarto-1/index.qmd
+    - text: "How to Start 2"
+      href: ../../docs/start/quarto-2/index.qmd
+    - text: "How to Deploy 1"
+      href: ../../docs/deploy/quarto-1/index.qmd
+    - text: "How to Deploy 2"
+      href: ../../docs/deploy/quarto-2/index.qmd
+- title: "Publishing"
+  subtitle: "Subtitle Publishing"
+  links:
+    - text: "How to Start 1"
+      href: ../../docs/start/quarto-1/index.qmd
+    - text: "How to Start 2"
+      href: ../../docs/start/quarto-2/index.qmd
+    - text: "How to Deploy 1"
+      href: ../../docs/deploy/quarto-1/index.qmd
+    - text: "How to Deploy 2"
+      href: ../../docs/deploy/quarto-2/index.qmd

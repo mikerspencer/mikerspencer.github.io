@@ -1,0 +1,82 @@
+---
+title: "About Us"
+subtitle: "Data Business."
+description: |
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.
+  Tempor incididunt ut labore et dolore magnam aliquam quaerat voluptatem.
+author:
+  - name: "Rouze Theme"
+date: "2026-01-29"
+image: "cover.webp"
+image-alt: "Cover images"
+citation: true
+citeproc: true
+toc: true
+toc-expand: true
+draft: false
+about:
+  template: trestles
+  image-shape: rounded
+  image-width: 10em
+  links:
+    - icon: globe
+      text: Website
+      href: "https://rouze.hervyqa.dev"
+    - icon: git
+      text: Git
+      href: "https://git.sr.ht/~username/repository"
+    - icon: mastodon
+      text: Mastodon
+      href: "https://mastodon.social/@username"
+    - icon: linkedin
+      text: LinkedIn
+      href: "https://www.linkedin.com/in/rouzetheme"
+format:
+  html:
+    number-sections: false
+---
+
+## Our Story EN
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor.
+
+## Mission & Vision
+
+### Our Mission
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula.
+
+### Our Vision
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula.
+
+## Our Team
+
+### Leadership
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula.
+
+### Developers
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula.
+
+### Designers
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula.
+
+## What We Do
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor.
+
+- Service 1: Lorem ipsum dolor sit amet
+- Service 2: Consectetur adipiscing elit
+- Service 3: Vivamus hendrerit arcu
+- Service 4: Sed auctor neque
+
+## Our Values
+
+1. **Innovation**: Lorem ipsum dolor sit amet
+2. **Collaboration**: Consectetur adipiscing elit
+3. **Excellence**: Vivamus hendrerit arcu
+4. **Integrity**: Sed auctor neque
+
+## Contact Us
+
+- Email: rouzetheme@loremipsum.com
+- Phone: (123) 456-7890
+- Address: 123 Lorem Street, Ipsum City, 12345
