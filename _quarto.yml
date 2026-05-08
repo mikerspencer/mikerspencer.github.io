@@ -4,6 +4,8 @@ project:
 website:
   title: "mikerspencer.com"
   navbar:
+    logo: img/logo_tag.jpg
+    logo-alt: logo showing MikeRSpencer.com and human insight for your data needs
     left:
       - href: index.qmd
         text: Home

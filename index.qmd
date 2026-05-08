@@ -1,5 +1,14 @@
 ---
 title: "mikerspencer.com"
+about:
+  template: jolla
+  links:
+    - icon: envelope
+      href: mailto:consult@mikerspencer.com
+    - icon: linkedin
+      href: https://www.linkedin.com/in/mikerspencer/
+    - icon: mastodon
+      href: https://mastodon.scot/@mikerspencer
 ---
 
 This is a Quarto website.
