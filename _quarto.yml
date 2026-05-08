@@ -2,7 +2,6 @@ project:
   type: website
 
 website:
-  title: "mikerspencer.com"
   navbar:
     logo: img/logo_tag.jpg
     logo-alt: logo showing MikeRSpencer.com and human insight for your data needs
@@ -11,6 +10,13 @@ website:
         text: Home
       - href: about.qmd
         text: About
+    tools:
+      - icon: envelope
+        href: mailto:consult@mikerspencer.com
+      - icon: linkedin
+        href: https://www.linkedin.com/in/mikerspencer/
+      - icon: mastodon
+        href: https://mastodon.scot/@mikerspencer
 
 format:
   html:
