@@ -1,0 +1,10 @@
+---
+title: "Services"
+listing:
+  contents: services
+  type: grid
+  categories: true
+---
+
+Hi, here you can find a list covering the main services Mike offers.
+If you have a data problem that doesn't neatly fit into one of these, please get in touch!
