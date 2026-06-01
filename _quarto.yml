@@ -2,6 +2,7 @@ project:
   type: website
 
 website:
+  site-url: "https://www.quarto.org"
   navbar:
     logo: img/logo_tag.jpg
     logo-alt: logo showing MikeRSpencer.com and human insight for your data needs
@@ -10,6 +11,8 @@ website:
         text: Home
       - href: about.qmd
         text: About
+      - href: blog.qmd
+        text: Blog
     tools:
       - icon: envelope
         href: mailto:consult@mikerspencer.com
