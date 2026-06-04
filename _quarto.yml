@@ -4,7 +4,7 @@ project:
 website:
   site-url: "https://www.quarto.org"
   navbar:
-    logo: img/logo_tag.jpg
+    logo: img/logo_trans.png
     logo-alt: logo showing MikeRSpencer.com and human insight for your data needs
     left:
       - href: index.qmd
