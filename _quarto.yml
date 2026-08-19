@@ -4,7 +4,7 @@ project:
 website:
   site-url: "https://www.quarto.org"
   navbar:
-    logo: img/logo_trans.png
+    logo: img/logo_trans_inv.png
     logo-alt: logo showing MikeRSpencer.com and human insight for your data needs
     left:
       - href: index.qmd
@@ -24,7 +24,7 @@ website:
 format:
   html:
     theme:
-      - cosmo
+      - lux
       - brand
     css: styles.css
     toc: true
