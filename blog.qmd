@@ -9,3 +9,5 @@ listing:
 
 Welcome to the blog section of Mike's website.
 Here you can find methods, exploration, data ideas, talks, projects and more.
+
+Tag with service types, software

@@ -14,3 +14,7 @@ Mike worked on projects including river and coastal flood mapping, flood defence
 Mike graduated from Lancaster University in 2004 with a BSc (hons) in Environmental Science.
 
 Mike is a fellow of the Royal Statistical Society and member of the Society of Research Software Engineers.
+
+Add CV
+
+{{< ai orcid >}}

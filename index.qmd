@@ -1,45 +1,63 @@
----
-title: "Welcome!"
-image: img/logo_trans.png
-about:
-  template: jolla
-  image-shape: rectangle
-  links:
-    - icon: envelope
-      text: email
-      href: mailto:consult@mikerspencer.com
-    - icon: linkedin
-      text: linkedin
-      href: https://www.linkedin.com/in/mikerspencer/
-    - icon: mastodon
-      text: mastodon
-      href: https://mastodon.scot/@mikerspencer
-    - icon: {{< ai orcid >}}
-      href: https://orcid.org/0000-0003-1472-2082
+![](img/logo_trans.png){fig-alt="Logo with the website address and a tagline of human insight for your data needs."}
+
+
+
+Navigating the data landscape is hard.
+We'd all love to achieve our lofty goals, but the distance to them from our reality seems larger than ever. I help people and organisations bridge the gap between their starting points and goals.
+
+What I bring is the experience to chart a course to an effective solution, and helping you get there in an efficient way.
+
 ---
 
-### This content appears above the formatted about page content.
+## Services
 
-:::{#hero-heading}
+Pick a time that suits you to talk through the challenge you'd like to solve.
 
-Finley Malloc is the Chief Data Scientist at Wengo Analytics. When not innovating on data platforms, Finley enjoys spending time unicycling and playing with her pet iguana.
+::: {.columns}
 
-## Education
+::: {.column width="25%"}
 
-University of California, San Diego | San Diego, CA
-PhD in Mathematics | Sept 2011 - June 2015
-
-Macalester College | St. Paul, MN
-B.A in Economics | Sept 2007 - June 2011
-
-## Experience
-
-Wengo Analytics | Head Data Scientist | April 2018 - present
-
-GeoScynce | Chief Analyst | Sept 2012 - April 2018
+Research and analysis
 
 :::
 
-### This content appears below the formatted about page content.
+::: {.column width="25%"}
+
+Quality assurance, review and optimisation
+
+:::
+
+::: {.column width="25%"}
+
+Workflows, pipelines and reproducibility
+
+:::
+
+::: {.column width="25%"}
+
+CDO as a service
+
+:::
+
+::::
+
+---
+
+## Highlights
+
+Click on these images to view my previous work.
+
+::: {layout-ncol=3}
+
+[![](img/toilets_hex.webp)](https://scottishsnow.wordpress.com/2020/06/27/toilets-of-scotland/){target="_blank"}
+
+[![](img/midlothian_annotated-1.webp)](https://scottishsnow.wordpress.com/2019/12/15/midlothian-bump/){target="_blank"}
+
+[![](img/cnp_snow-1.webp)](https://scottishsnow.wordpress.com/2019/12/03/cairngorm-snow-2080/){target="_blank"}
+
+:::
+
+
+
 
 

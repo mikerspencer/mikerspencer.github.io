@@ -8,3 +8,16 @@ listing:
 
 Hi, here you can find a list covering the main services Mike offers.
 If you have a data problem that doesn't neatly fit into one of these, please get in touch!
+
+
+- CDO as a service
+- Outsourced data dept
+- Mentoring and team development
+- Training and skills
+- Capacity boost
+- Quality assurance, review and optimisation
+- Research and analysis
+- Workflows, pipelines and reproducibility
+- Data preparation
+
+## Tools that I work with
