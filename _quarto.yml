@@ -9,10 +9,12 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: about.qmd
-        text: About
+      - href: services.qmd
+        text: Services
       - href: blog.qmd
         text: Blog
+      - href: about.qmd
+        text: About
     tools:
       - icon: envelope
         href: mailto:consult@mikerspencer.com
