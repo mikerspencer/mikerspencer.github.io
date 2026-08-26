@@ -1,16 +1,45 @@
 ---
-title: "mikerspencer.com"
+title: "Welcome!"
+image: img/logo_trans.png
 about:
   template: jolla
+  image-shape: rectangle
   links:
     - icon: envelope
+      text: email
       href: mailto:consult@mikerspencer.com
     - icon: linkedin
+      text: linkedin
       href: https://www.linkedin.com/in/mikerspencer/
     - icon: mastodon
+      text: mastodon
       href: https://mastodon.scot/@mikerspencer
+    - icon: {{< ai orcid >}}
+      href: https://orcid.org/0000-0003-1472-2082
 ---
 
-This is a Quarto website.
+### This content appears above the formatted about page content.
+
+:::{#hero-heading}
+
+Finley Malloc is the Chief Data Scientist at Wengo Analytics. When not innovating on data platforms, Finley enjoys spending time unicycling and playing with her pet iguana.
+
+## Education
+
+University of California, San Diego | San Diego, CA
+PhD in Mathematics | Sept 2011 - June 2015
+
+Macalester College | St. Paul, MN
+B.A in Economics | Sept 2007 - June 2011
+
+## Experience
+
+Wengo Analytics | Head Data Scientist | April 2018 - present
+
+GeoScynce | Chief Analyst | Sept 2012 - April 2018
+
+:::
+
+### This content appears below the formatted about page content.
 
 
