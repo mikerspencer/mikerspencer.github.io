@@ -3,3 +3,19 @@
 .navbar-logo {
   max-height: 35px;
 }
+
+/*
+Source - https://stackoverflow.com/a/74026889
+Posted by Shafee, modified by community. See post 'Timeline' for change history
+Retrieved 2026-08-28, License - CC BY-SA 4.0
+*/
+
+.grid-item {
+  color: #fff;
+  background-color: #343a40;
+  padding: 10px;
+}
+
+.grid-h5 {
+  color: #fff;
+}

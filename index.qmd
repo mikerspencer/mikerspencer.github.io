@@ -13,33 +13,54 @@ What I bring is the experience to chart a course to an effective solution, and h
 
 Pick a time that suits you to talk through the challenge you'd like to solve.
 
-::: {.columns}
+https://stackoverflow.com/a/75383017
+https://getbootstrap.com/docs/5.1/layout/grid/
 
-::: {.column width="25%"}
+::: {.grid}
 
-Research and analysis
+::: {.g-col-6 .grid-item}
+
+##### [Research and analysis]{.grid-h5}
+
+* background-color="#FF0000"
+* item 2
+
+:::
+  
+::: {.g-col-6 .grid-item}
+
+##### [Quality assurance, review and optimisation]{.grid-h5}
+
+* item 1
+* item 2
+
 
 :::
 
-::: {.column width="25%"}
+::: {.g-col-6 .grid-item}
 
-Quality assurance, review and optimisation
+##### [Workflows, pipelines and reproducibility]{.grid-h5}
 
-:::
+* item 1
+* item 2
 
-::: {.column width="25%"}
-
-Workflows, pipelines and reproducibility
 
 :::
 
-::: {.column width="25%"}
+::: {.g-col-6 .grid-item}
 
-CDO as a service
+##### [Chief Data Officer as a service]{.grid-h5}
+
+* item 1
+* item 2
+
 
 :::
 
-::::
+:::  
+
+
+
 
 ---
 
@@ -54,6 +75,7 @@ Click on these images to view my previous work.
 [![](img/midlothian_annotated-1.webp)](https://scottishsnow.wordpress.com/2019/12/15/midlothian-bump/){target="_blank"}
 
 [![](img/cnp_snow-1.webp)](https://scottishsnow.wordpress.com/2019/12/03/cairngorm-snow-2080/){target="_blank"}
+
 
 :::
 
