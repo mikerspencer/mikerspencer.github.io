@@ -22,8 +22,9 @@ https://getbootstrap.com/docs/5.1/layout/grid/
 
 ##### [Research and analysis]{.grid-h5}
 
-* background-color="#FF0000"
-* item 2
+- Reports and dashboards
+- Research questions answered
+- Standalone, outsourced projects
 
 :::
   
@@ -31,8 +32,9 @@ https://getbootstrap.com/docs/5.1/layout/grid/
 
 ##### [Quality assurance, review and optimisation]{.grid-h5}
 
-* item 1
-* item 2
+- External review
+- Support existing teams and staff
+- Improve existing approaches
 
 
 :::
@@ -41,8 +43,8 @@ https://getbootstrap.com/docs/5.1/layout/grid/
 
 ##### [Workflows, pipelines and reproducibility]{.grid-h5}
 
-* item 1
-* item 2
+- Data preparation
+- Automation
 
 
 :::
@@ -51,8 +53,10 @@ https://getbootstrap.com/docs/5.1/layout/grid/
 
 ##### [Chief Data Officer as a service]{.grid-h5}
 
-* item 1
-* item 2
+- Recruitment
+- Capacity building
+- Gap analysis and staff development
+- Mentoring
 
 
 :::
