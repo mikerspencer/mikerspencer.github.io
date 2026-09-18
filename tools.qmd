@@ -2,6 +2,8 @@
 title: "Software and tools"
 ---
 
+`Restructure to start with TOC and split across data types and software.`
+
 Let me introduce you to the software I use.
 All the tools in this list are free at the point of use and available with open source licences.
 These are tools and tech I can support you with:

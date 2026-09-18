@@ -4,7 +4,8 @@ listing:
   contents: blog
   type: grid
   categories: true
-  feed: true
+  feed:
+    title: "MikeRSpencer blog"
 ---
 
 Welcome to the blog section of Mike's website.
