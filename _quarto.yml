@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  site-url: "https://www.quarto.org"
+  site-url: "https://mikerspencer.com"
   navbar:
     logo: img/logo_trans_inv.png
     logo-alt: logo showing MikeRSpencer.com and human insight for your data needs
@@ -22,6 +22,8 @@ website:
         href: https://www.linkedin.com/in/mikerspencer/
       - icon: mastodon
         href: https://mastodon.scot/@mikerspencer
+      - icon: rss
+        href: blog.xml
 
 format:
   html:

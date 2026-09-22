@@ -1,5 +1,5 @@
 ---
-title: "Services"
+title: "Mike's services"
 listing:
   contents: services
   type: grid

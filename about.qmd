@@ -16,7 +16,7 @@ Mike graduated from Lancaster University in 2004 with a BSc (hons) in Environmen
 
 Mike is a fellow of the [Royal Statistical Society](https://rss.org.uk/) and member of the [Society of Research Software Engineers](https://society-rse.org/).
 
-[Download a copy of Mike's CV](docs/MikeSpencer_CV.pdf)
+## [Download a copy of Mike's CV](docs/MikeSpencer_CV.pdf)
 
 ## Links
 
@@ -27,8 +27,8 @@ Please use these to follow my work or get in touch!
 * {{< fa brands linkedin >}} LinkedIn [mikerspencer](https://www.linkedin.com/in/mikerspencer/)
 * {{< fa brands mastodon >}} Mastodon [@mikerspencer@mastodon.scot](https://mastodon.scot/@mikerspencer)
 * {{< ai orcid >}} [ORCID 0000-0003-1472-2082](https://orcid.org/0000-0003-1472-2082)
-* {{< fa brands pixelfed >}} Pixelfed [@mikerspencer@pixelfed.scot](https://pixelfed.scot/mikerspencer) #https://fontawesome.com/icons/brands/solid/pixelfed
-* {{< fa square-rss >}} `RSS updates`
+* {{< fa brands pixelfed >}} Pixelfed [@mikerspencer@pixelfed.scot](https://pixelfed.scot/mikerspencer)
+* {{< fa square-rss >}} [RSS updates](blog.xml)
 * {{< fa brands wordpress >}} [Scottish Snow](https://scottishsnow.wordpress.com) blog
 
 * {{< ai zenodo >}} [Zenodo](https://zenodo.org/search?q=creators.orcid%3A0000-0003-1472-2082&l=list&p=1&s=10&sort=publication-desc)

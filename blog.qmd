@@ -1,5 +1,5 @@
 ---
-title: "My Projects"
+title: "Mike's Projects"
 listing:
   contents: blog
   type: grid
@@ -11,4 +11,6 @@ listing:
 Welcome to the blog section of Mike's website.
 Here you can find methods, exploration, data ideas, talks, projects and more.
 
-Tag with service types, software
+You can follow this blog using the [RSS feed](blog.xml) {{< fa square-rss >}}
+
+`Tag with service types, software`
