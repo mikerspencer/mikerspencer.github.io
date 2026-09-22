@@ -13,6 +13,8 @@ website:
         text: Services
       - href: blog.qmd
         text: Blog
+      - href: tools.qmd
+        text: Tools
       - href: about.qmd
         text: About
     tools:
