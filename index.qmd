@@ -26,7 +26,7 @@ https://getbootstrap.com/docs/5.1/layout/grid/
 
 ::: {.grid}
 
-::: {.g-col-6 .grid-item}
+::: {.g-col-12 .g-col-md-6 .grid-item}
 
 ##### [Research and analysis]{.grid-h5}
 
@@ -36,7 +36,7 @@ https://getbootstrap.com/docs/5.1/layout/grid/
 
 :::
   
-::: {.g-col-6 .grid-item}
+::: {.g-col-12 .g-col-md-6 .grid-item}
 
 ##### [Quality assurance, review and optimisation]{.grid-h5}
 
@@ -47,7 +47,7 @@ https://getbootstrap.com/docs/5.1/layout/grid/
 
 :::
 
-::: {.g-col-6 .grid-item}
+::: {.g-col-12 .g-col-md-6 .grid-item}
 
 ##### [Workflows, pipelines and reproducibility]{.grid-h5}
 
@@ -57,7 +57,7 @@ https://getbootstrap.com/docs/5.1/layout/grid/
 
 :::
 
-::: {.g-col-6 .grid-item}
+::: {.g-col-12 .g-col-md-6 .grid-item}
 
 ##### [Chief Data Officer as a service]{.grid-h5}
 
