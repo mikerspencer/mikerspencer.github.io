@@ -2,17 +2,16 @@
 title: "Software and tools"
 ---
 
-`Restructure to start with TOC and split across data types and software.`
+This is a non-exhaustive list of the software and data types I work with.
+For examples please see [my blog](blog.qmd) or [get in touch](mailto:consult@mikerspencer.com) to discuss your support requirements.
 
-Let me introduce you to the software I use.
-All the tools in this list are free at the point of use and available with open source licences.
-These are tools and tech I can support you with:
 
 * Programming
    * [R](https://cran.r-project.org/): Statistical and programming software
    * [RStudio](https://posit.co/products/open-source/rstudio): Development environment for R
    * Linux and Bash: for scaling and automation
    * [Git](https://git-scm.com/): Version control software (for use with Github, Bitbucket, Gitlab, Codeberg, etc.)
+   * [Kate IDE](https://kate-editor.org/en-gb/) a lightweight development environment.
 * Spatial and GIS
    * [GRASS](https://grass.osgeo.org/): Geographic information system
    * [QGIS](https://qgis.org/): Geographic information system
@@ -21,16 +20,19 @@ These are tools and tech I can support you with:
    * [Parquet](https://parquet.apache.org/), [Arrow](https://arrow.apache.org/) and [partitioned data](https://hive.apache.org/)
 * Other
    * [Scribus](https://www.scribus.net/): Desktop publishing
-   * [Logseq](https://logseq.com/): personal knowledge management
+   * [Logseq](https://logseq.com/): personal knowledge management - easy notetaking and information retrieval.
+   * [https://keepassxc.org/](KeePassXC): password management
 
-My operating system of choice is Fedora, which is built on Linux (like Android is).
-A lot of the software on this page is available for Windows and Macs, but it is all available for Linux systems.
-I switched from using Windows to Ubuntu in early 2011 and have not regretted the decision.
-I have it installed on my home and work desktops and also my laptop, it’s great having all machines running the same operating system with the same software installed.
+My operating system of choice is [Fedora](https://fedoraproject.org/), which is built on Linux.
+A lot of the software on this page is also available for Windows and Macs.
+I switched from using Windows to Linux in early 2011 and have not regretted the decision.
 
-Some of the software I use falls under the umbrella of OSGeo, which is an organisation that looks after spatial software like GRASS and QGIS.
-They maintain an image operating system containing all their spatial projects.
-If you want to try some out, this is an excellent place to start.
-OSGeo also has country specific chapters; as most of my blog readers are from the UK here is the UK OSGeo chapter.
-The local chapters are great for putting you in touch with other users and as a place to ask advice and find assistance.
+I've a [help wiki](https://github.com/mikerspencer/help/wiki) of resources I find useful.
+Hopefully you find them useful too!
+
+Some of the software listed above have great communities, here are those I work with:
+
+* [EdinbR](http://edinbr.org/) a meetup for users of R
+* [OSGeo:UK](https://uk.osgeo.org/) is an umbrella organisation for spatial software
+* [PyData Edinburgh](https://www.meetup.com/pydata-edinburgh/) a meetup for users of Python
 
