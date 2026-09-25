@@ -22,15 +22,18 @@ Mike is a fellow of the [Royal Statistical Society](https://rss.org.uk/) and mem
 
 Please use these to follow my work or get in touch!
 
-* {{< fa envelope >}} [consult@mikerspencer.com](mailto:consult@mikerspencer.com)
-* {{< fa brands github >}} Github [mikerspencer](https://github.com/mikerspencer)
-* {{< fa brands linkedin >}} LinkedIn [mikerspencer](https://www.linkedin.com/in/mikerspencer/)
-* {{< fa brands mastodon >}} Mastodon [@mikerspencer@mastodon.scot](https://mastodon.scot/@mikerspencer)
-* {{< ai orcid >}} [ORCID 0000-0003-1472-2082](https://orcid.org/0000-0003-1472-2082)
-* {{< fa brands pixelfed >}} Pixelfed [@mikerspencer@pixelfed.scot](https://pixelfed.scot/mikerspencer)
-* {{< fa square-rss >}} [RSS updates](blog.xml)
-* {{< fa brands wordpress >}} [Scottish Snow](https://scottishsnow.wordpress.com) blog
+::: {.bulletless}
 
-* {{< ai zenodo >}} [Zenodo](https://zenodo.org/search?q=creators.orcid%3A0000-0003-1472-2082&l=list&p=1&s=10&sort=publication-desc)
+{{< fa envelope >}} [consult@mikerspencer.com](mailto:consult@mikerspencer.com)  
+{{< fa brands github >}} Github [mikerspencer](https://github.com/mikerspencer)  
+{{< fa brands linkedin >}} LinkedIn [mikerspencer](https://www.linkedin.com/in/mikerspencer/)  
+{{< fa brands mastodon >}} Mastodon [@mikerspencer@mastodon.scot](https://mastodon.scot/@mikerspencer)  
+{{< ai orcid >}} ORCID [0000-0003-1472-2082](https://orcid.org/0000-0003-1472-2082)  
+{{< fa brands pixelfed >}} Pixelfed [@mikerspencer@pixelfed.scot](https://pixelfed.scot/mikerspencer)  
+{{< fa square-rss >}} [RSS updates](blog.xml) for this site  
+{{< fa brands wordpress >}} [Scottish Snow](https://scottishsnow.wordpress.com) blog  
+{{< ai zenodo >}} [Zenodo](https://zenodo.org/search?q=creators.orcid%3A0000-0003-1472-2082&l=list&p=1&s=10&sort=publication-desc)
+
+:::
 
 ![A photo of Mike cycling.](img/GOPR3420_min.JPG)
