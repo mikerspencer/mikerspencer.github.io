@@ -19,3 +19,9 @@ Retrieved 2026-08-28, License - CC BY-SA 4.0
 .grid-h5 {
   color: #fff;
 }
+
+.bulletless {
+  list-style-type: none;
+  margin-left: 40px;
+  line-height: 2;
+}
