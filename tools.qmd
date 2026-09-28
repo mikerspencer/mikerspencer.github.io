@@ -22,7 +22,7 @@ For examples please see [my blog](blog.qmd) or [get in touch](mailto:consult@mik
 * Other
    * [Scribus](https://www.scribus.net/): Desktop publishing
    * [Logseq](https://logseq.com/): personal knowledge management - easy notetaking and information retrieval
-   * [https://keepassxc.org/](KeePassXC): password management
+   * [KeePassXC](https://keepassxc.org/): password management
 
 My operating system of choice is [Fedora](https://fedoraproject.org/), which is built on Linux.
 A lot of the software on this page is also available for Windows and Macs.

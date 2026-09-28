@@ -22,13 +22,17 @@ website:
         href: mailto:consult@mikerspencer.com
       - icon: linkedin
         href: https://www.linkedin.com/in/mikerspencer/
+        target: _blank
       - icon: mastodon
         href: https://mastodon.scot/@mikerspencer
+        target: _blank
       - icon: rss
         href: blog.xml
+        target: _blank
 
 format:
   html:
+    link-external-newwindow: true
     theme:
       - lux
       - brand
