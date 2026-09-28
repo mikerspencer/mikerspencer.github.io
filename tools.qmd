@@ -9,9 +9,10 @@ For examples please see [my blog](blog.qmd) or [get in touch](mailto:consult@mik
 * Programming
    * [R](https://cran.r-project.org/): Statistical and programming software
    * [RStudio](https://posit.co/products/open-source/rstudio): Development environment for R
-   * Linux and Bash: for scaling and automation
+   * [Quarto](https://quarto.org/), [LaTeX](https://www.latex-project.org/) and [Markdown](https://daringfireball.net/projects/markdown/): Document automation
+   * [Linux](https://www.linuxfoundation.org/), [Bash](https://www.gnu.org/software/bash/) and associated tools: for scaling and automation
    * [Git](https://git-scm.com/): Version control software (for use with Github, Bitbucket, Gitlab, Codeberg, etc.)
-   * [Kate IDE](https://kate-editor.org/en-gb/) a lightweight development environment.
+   * [Kate IDE](https://kate-editor.org/en-gb/) a lightweight development environment
 * Spatial and GIS
    * [GRASS](https://grass.osgeo.org/): Geographic information system
    * [QGIS](https://qgis.org/): Geographic information system
@@ -20,7 +21,7 @@ For examples please see [my blog](blog.qmd) or [get in touch](mailto:consult@mik
    * [Parquet](https://parquet.apache.org/), [Arrow](https://arrow.apache.org/) and [partitioned data](https://hive.apache.org/)
 * Other
    * [Scribus](https://www.scribus.net/): Desktop publishing
-   * [Logseq](https://logseq.com/): personal knowledge management - easy notetaking and information retrieval.
+   * [Logseq](https://logseq.com/): personal knowledge management - easy notetaking and information retrieval
    * [https://keepassxc.org/](KeePassXC): password management
 
 My operating system of choice is [Fedora](https://fedoraproject.org/), which is built on Linux.
