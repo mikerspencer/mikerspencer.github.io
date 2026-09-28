@@ -3,8 +3,17 @@ title: "Software and tools"
 ---
 
 This is a non-exhaustive list of the software and data types I work with.
-For examples please see [my blog](blog.qmd) or [get in touch](mailto:consult@mikerspencer.com) to discuss your support requirements.
+For examples please see [my blog](blog.qmd) or get in touch to discuss your support requirements.
 
+:::: {.center}
+
+::: {.button}
+
+[{{< fa envelope >}} email Mike](mailto:consult@mikerspencer.com)
+
+:::
+
+::::
 
 * Programming
    * [R](https://cran.r-project.org/): Statistical and programming software

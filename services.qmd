@@ -15,7 +15,7 @@ Please get in touch, especially if you have a data problem that doesn't neatly f
 
 ::: {.button}
 
-{{< fa envelope >}} email Mike
+[{{< fa envelope >}} email Mike](mailto:consult@mikerspencer.com)
 
 :::
 

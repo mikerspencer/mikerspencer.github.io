@@ -19,7 +19,15 @@ Pick a time that suits you to talk through the challenge you'd like to solve.
 
 `Add methods, approaches, etc. Link to tools`
 
-`contact me`
+:::: { .center}
+
+::: {.button}
+
+[{{< fa envelope >}} email Mike](mailto:consult@mikerspencer.com)
+
+:::
+
+::::
 
 https://stackoverflow.com/a/75383017
 https://getbootstrap.com/docs/5.1/layout/grid/
