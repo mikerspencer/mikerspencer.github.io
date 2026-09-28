@@ -13,4 +13,4 @@ Here you can find methods, exploration, data ideas, talks, projects and more.
 
 You can follow this blog using the [RSS feed](blog.xml) {{< fa square-rss >}}
 
-`Tag with service types, software`
+Blog's are written overnight, so while I build a library of posts please have a look at my old academic blog [Scottish Snow](https://scottishsnow.wordpress.com).
