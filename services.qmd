@@ -6,10 +6,19 @@ listing:
   categories: true
 ---
 
-`link to blog examples`
-
 Hi, here you can find a list covering the main services I offer.
 Please get in touch, especially if you have a data problem that doesn't neatly fit into one of these!
+
+
+## Support levels
+
+I've three broad levels of support on offer:
+
+- [Leadership](services.qmd#leadership)
+- [Reviewer](services.qmd#review)
+- [Hands-on](services.qmd#hands-on)
+
+There's overlap between these levels, so don't feel constrained.
 
 :::: { .center}
 
@@ -21,22 +30,47 @@ Please get in touch, especially if you have a data problem that doesn't neatly f
 
 ::::
 
-Some text.
 
-- CDO as a service
-- Outsourced data dept
+`try this as a matrix with tick boxes`
+
+### Leading
+
+- Recruitment: adverts, CV sifting & interviews
 - Mentoring and team development
 - Training and skills
-- Capacity boost
-- Quality assurance, review and optimisation
-- Research and analysis
+- Project requirements definition
+- Detailing good-enough to minimise effort and cost
+
+
+### Reviewing
+
+- Quality assurance (it runs on my machine)
+- Review processes and code
+- Recommend ways to optimise for reduced run-times and lower cost
+- Workflows, pipelines and reproducibility
+
+
+### Hands-on
+
+- Additional capacity
+- Outsourced projects
+- Outsourced data dept
 - Workflows, pipelines and reproducibility
 - Data preparation
+- Research and analysis
 
 
-## Tools that I work with
+## Technical competence
 
 I can help with programming, spatial, etc..
 Please see [my tools](tools.qmd)
 
-`contact me`
+:::: { .center}
+
+::: {.button}
+
+[{{< fa envelope >}} email Mike](mailto:consult@mikerspencer.com)
+
+:::
+
+::::
