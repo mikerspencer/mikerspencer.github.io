@@ -1,24 +1,29 @@
 ---
 title: "Mike's services"
-listing:
-  contents: services
-  type: grid
-  categories: true
 ---
 
-Hi, here you can find a list covering the main services I offer.
-Please get in touch, especially if you have a data problem that doesn't neatly fit into one of these!
+**How can I help?**
+
+I've worked through lots of data-related problems in my career and these cover a wide variety of domains.
+What I can do for you broadly fits into three different types of support: leadership, review and hands-on.
+
+The kinds data problems I've worked with include GIS/spatial, surveys, engineering pipelines, training, recruitment, and more.
+Have a look at my [blog](blog.qmd) for examples.
+
+[{{< fa envelope >}} Please get in touch](mailto:consult@mikerspencer.com), especially if you have a data problem that doesn't neatly fit into one of these!
+I love figuring out solutions.
 
 
-## Support levels
+## Support 
 
-I've three broad levels of support on offer:
+I offer three types of support:
 
 - [Leadership](services.qmd#leadership)
 - [Reviewer](services.qmd#review)
 - [Hands-on](services.qmd#hands-on)
 
 There's overlap between these levels, so don't feel constrained.
+I'm happy to work on short comissions or longer term engagements.
 
 :::: { .center}
 
@@ -31,7 +36,6 @@ There's overlap between these levels, so don't feel constrained.
 ::::
 
 
-`try this as a matrix with tick boxes`
 
 ### Leading
 
@@ -40,7 +44,7 @@ There's overlap between these levels, so don't feel constrained.
 - Training and skills
 - Project requirements definition
 - Detailing good-enough to minimise effort and cost
-
+- Example of an hour a week over months to support staff
 
 ### Reviewing
 
