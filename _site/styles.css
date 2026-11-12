@@ -25,3 +25,27 @@ Retrieved 2026-08-28, License - CC BY-SA 4.0
   margin-left: 40px;
   line-height: 2;
 }
+
+.button {
+  position: relative;
+  background-color: #4bbf73;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  height: 70px;
+  line-height: 40px;
+  cursor: pointer;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  background-color: white;
+}
