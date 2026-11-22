@@ -16,8 +16,8 @@ What I bring is the experience to chart a course to an effective solution, and h
 ## Services
 
 Pick a time that suits you to talk through the challenge you'd like to solve.
+For more information see [my services](services.qmd) page.
 
-`Add methods, approaches, etc. Link to tools`
 
 :::: { .center}
 
@@ -29,50 +29,44 @@ Pick a time that suits you to talk through the challenge you'd like to solve.
 
 ::::
 
-https://stackoverflow.com/a/75383017
-https://getbootstrap.com/docs/5.1/layout/grid/
 
 ::: {.grid}
 
-::: {.g-col-12 .g-col-md-6 .grid-item}
+::: {.g-col-12 .g-col-md-12 .grid-item}
 
-##### [Research and analysis]{.grid-h5}
+##### [Hands-on]{.grid-h5}
 
+- Research and analysis
 - Reports and dashboards
 - Research questions answered
 - Standalone, outsourced projects
+- Workflows, pipelines and reproducibility
+- Data preparation
+- Automation
 
 :::
   
 ::: {.g-col-12 .g-col-md-6 .grid-item}
 
-##### [Quality assurance, review and optimisation]{.grid-h5}
+##### [Quality assurance]{.grid-h5}
 
 - External review
 - Support existing teams and staff
 - Improve existing approaches
+- Technical validation
 
 
 :::
 
-::: {.g-col-12 .g-col-md-6 .grid-item}
-
-##### [Workflows, pipelines and reproducibility]{.grid-h5}
-
-- Data preparation
-- Automation
-
-
-:::
 
 ::: {.g-col-12 .g-col-md-6 .grid-item}
 
-##### [Chief Data Officer as a service]{.grid-h5}
+##### [Leadership]{.grid-h5}
 
+- Chief Data Officer as a service
 - Recruitment
-- Capacity building
 - Gap analysis and staff development
-- Mentoring
+- Mentoring and capacity building
 
 
 :::
