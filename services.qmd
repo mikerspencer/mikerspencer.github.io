@@ -2,10 +2,10 @@
 title: "Mike's services"
 ---
 
-**How can I help?**
+*How can I help?*
 
 I've worked through lots of data-related problems in my career and these cover a wide variety of domains.
-What I can do for you broadly fits into three different types of support: leadership, review and hands-on.
+What I can do for you fits into three different types of support: leadership, review and hands-on.
 
 The kinds data problems I've worked with include GIS/spatial, surveys, engineering pipelines, training, recruitment, and more.
 Have a look at my [blog](blog.qmd) for examples.
@@ -19,7 +19,7 @@ I love figuring out solutions.
 I offer three types of support:
 
 - [Leadership](services.qmd#leadership)
-- [Reviewer](services.qmd#review)
+- [Review](services.qmd#review)
 - [Hands-on](services.qmd#hands-on)
 
 There's overlap between these levels, so don't feel constrained.
@@ -39,24 +39,27 @@ I'm happy to work on short comissions or longer term engagements.
 
 ### Leading
 
-- Recruitment: adverts, CV sifting & interviews
+- Recruitment: specification, adverts, CV sifting & interviews
 - Mentoring and team development
 - Training and skills
-- Project requirements definition
-- Detailing good-enough to minimise effort and cost
-- Example of an hour a week over months to support staff
+- Defining project requirements
+- Detailing *good-enough* to minimise effort and cost
+
+This kind of support can work well in concentrated sprints or short periods of time spread across multiple weeks.
+
 
 ### Reviewing
 
-- Quality assurance (it runs on my machine)
+- Quality assurance (eg testing, replication and detailing improvements)
 - Review processes and code
-- Recommend ways to optimise for reduced run-times and lower cost
+- Recommend ways to optimise for reduced run-times and lower costs
 - Workflows, pipelines and reproducibility
 
 
 ### Hands-on
 
 - Additional capacity
+- Methods appraisal
 - Outsourced projects
 - Outsourced data dept
 - Workflows, pipelines and reproducibility
@@ -66,8 +69,10 @@ I'm happy to work on short comissions or longer term engagements.
 
 ## Technical competence
 
-I can help with programming, spatial, etc..
-Please see [my tools](tools.qmd)
+There are many data related tasks I can help with.
+The best place to find out more is to look at [my blog](blog.qmd) or drop me an email.
+Have a look at [my tools](tools.qmd) page to give an idea of the software I work with.
+
 
 :::: { .center}
 
