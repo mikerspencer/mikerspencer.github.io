@@ -1,5 +1,5 @@
 ---
-title: "Mike's Projects"
+title: "Mike's Blog"
 listing:
   contents: blog
   type: grid
@@ -11,7 +11,7 @@ listing:
 ![](img/DSCF8329_min.JPG){fig-alt="A photo of the sunset from the bow observation deck of a ferry. A door is open with a soft light emanating."}
 
 Welcome to the blog section of Mike's website.
-Here you can find methods, exploration, data ideas, talks, projects and more.
+Here you can find news, methods, exploration, data ideas, talks, projects and more.
 
 You can follow this blog using the [RSS feed](blog.xml) {{< fa square-rss >}}
 
