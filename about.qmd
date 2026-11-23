@@ -46,4 +46,4 @@ Please use these to follow my work or get in touch!
 :::
 
 
-![A photo of Mike cycling.](img/GOPR3420_min.JPG)
+![](img/GOPR3420_min.JPG){fig-alt="A photo of Mike cycling."}

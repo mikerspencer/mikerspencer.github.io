@@ -2,7 +2,10 @@
 title: "Mike's services"
 ---
 
-*How can I help?*
+
+![](img/DSCF8720_min.JPG){fig-alt="A photo of a still canal with houseboats and reflections."}
+
+### How can I help?
 
 I've worked through lots of data-related problems in my career and these cover a wide variety of domains.
 What I can do for you fits into three different types of support: leadership, review and hands-on.

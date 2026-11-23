@@ -2,6 +2,8 @@
 title: "Software and tools"
 ---
 
+![](img/DSCF9794_min.JPG){fig-alt="A small wave rolls into shore. The beach is shallow and some rocks curve out of it like shark fins. Behind a town clings to the rising land."}
+
 This is a non-exhaustive list of the software and data types I work with.
 For examples please see [my blog](blog.qmd) or get in touch to discuss your support requirements.
 
