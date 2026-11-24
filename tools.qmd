@@ -1,0 +1,50 @@
+---
+title: "Software and tools"
+---
+
+![](img/DSCF9794_min.JPG){fig-alt="A small wave rolls into shore. The beach is shallow and some rocks curve out of it like shark fins. Behind a town clings to the rising land."}
+
+This is a non-exhaustive list of the software and data types I work with.
+For examples please see [my blog](blog.qmd) or get in touch to discuss your support requirements.
+
+:::: {.center}
+
+::: {.button}
+
+[{{< fa envelope >}} email Mike](mailto:consult@mikerspencer.com)
+
+:::
+
+::::
+
+* Programming
+   * [R](https://cran.r-project.org/): Statistical and programming software
+   * [RStudio](https://posit.co/products/open-source/rstudio): Development environment for R
+   * [Quarto](https://quarto.org/), [LaTeX](https://www.latex-project.org/) and [Markdown](https://daringfireball.net/projects/markdown/): Document automation
+   * [Linux](https://www.linuxfoundation.org/), [Bash](https://www.gnu.org/software/bash/) and associated tools: for scaling and automation
+   * [Git](https://git-scm.com/): Version control software (for use with Github, Bitbucket, Gitlab, Codeberg, etc.)
+   * [Kate IDE](https://kate-editor.org/en-gb/) a lightweight development environment
+* Spatial and GIS
+   * [GRASS](https://grass.osgeo.org/): Geographic information system
+   * [QGIS](https://qgis.org/): Geographic information system
+* Data storage
+   * [SQLite](https://www.sqlite.org/), [PostgreSQL](https://www.postgresql.org/), [MySQL](https://www.mysql.com/)
+   * [Parquet](https://parquet.apache.org/), [Arrow](https://arrow.apache.org/) and [partitioned data](https://hive.apache.org/)
+* Other
+   * [Scribus](https://www.scribus.net/): Desktop publishing
+   * [Logseq](https://logseq.com/): personal knowledge management - easy notetaking and information retrieval
+   * [KeePassXC](https://keepassxc.org/): password management
+
+My operating system of choice is [Fedora](https://fedoraproject.org/), which is built on Linux.
+A lot of the software on this page is also available for Windows and Macs.
+I switched from using Windows to Linux in early 2011 and have not regretted the decision.
+
+I've a [help wiki](https://github.com/mikerspencer/help/wiki) of resources I find useful.
+Hopefully you find them useful too!
+
+Some of the software listed above have great communities, here are those I work with:
+
+* [EdinbR](http://edinbr.org/) a meetup for users of R
+* [OSGeo:UK](https://uk.osgeo.org/) is an umbrella organisation for spatial software
+* [PyData Edinburgh](https://www.meetup.com/pydata-edinburgh/) a meetup for users of Python
+

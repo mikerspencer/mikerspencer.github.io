@@ -1,0 +1,88 @@
+---
+title: "Mike's services"
+---
+
+
+![](img/DSCF8720_min.JPG){fig-alt="A photo of a still canal with houseboats and reflections."}
+
+### How can I help?
+
+I've worked through lots of data-related problems in my career and these cover a wide variety of domains.
+What I can do for you fits into three different types of support: leadership, review and hands-on.
+
+The kinds data problems I've worked with include GIS/spatial, surveys, engineering pipelines, training, recruitment, and more.
+Have a look at my [blog](blog.qmd) for examples.
+
+[{{< fa envelope >}} Please get in touch](mailto:consult@mikerspencer.com), especially if you have a data problem that doesn't neatly fit into one of these!
+I love figuring out solutions.
+
+
+## Support 
+
+I offer three types of support:
+
+- [Leadership](services.qmd#leadership)
+- [Review](services.qmd#review)
+- [Hands-on](services.qmd#hands-on)
+
+There's overlap between these levels, so don't feel constrained.
+I'm happy to work on short comissions or longer term engagements.
+
+:::: { .center}
+
+::: {.button}
+
+[{{< fa envelope >}} email Mike](mailto:consult@mikerspencer.com)
+
+:::
+
+::::
+
+
+
+### Leading
+
+- Recruitment: specification, adverts, CV sifting & interviews
+- Mentoring and team development
+- Training and skills
+- Defining project requirements
+- Detailing *good-enough* to minimise effort and cost
+
+This kind of support can work well in concentrated sprints or short periods of time spread across multiple weeks.
+
+
+### Reviewing
+
+- Quality assurance (eg testing, replication and detailing improvements)
+- Review processes and code
+- Recommend ways to optimise for reduced run-times and lower costs
+- Workflows, pipelines and reproducibility
+
+
+### Hands-on
+
+- Additional capacity
+- Methods appraisal
+- Outsourced projects
+- Outsourced data dept
+- Workflows, pipelines and reproducibility
+- Data preparation
+- Research and analysis
+
+
+## Technical competence
+
+There are many data related tasks I can help with.
+The best place to find out more is to look at [my blog](blog.qmd) or drop me an email.
+Have a look at [my tools](tools.qmd) page to give an idea of the software I work with.
+
+
+:::: { .center}
+
+::: {.button}
+
+[{{< fa envelope >}} email Mike](mailto:consult@mikerspencer.com)
+
+:::
+
+::::
