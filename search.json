@@ -1,0 +1,65 @@
+[
+  {
+    "objectID": "services.html#support",
+    "href": "services.html#support",
+    "title": "Mike’s services",
+    "section": "Support",
+    "text": "Support\nI offer three types of support:\n\nLeadership\nReview\nHands-on\n\nThere’s overlap between these levels, so don’t feel constrained. I’m happy to work on short comissions or longer term engagements.\n\n\n email Mike\n\n\n\nLeading\n\nRecruitment: specification, adverts, CV sifting & interviews\nMentoring and team development\nTraining and skills\nDefining project requirements\nDetailing good-enough to minimise effort and cost\n\nThis kind of support can work well in concentrated sprints or short periods of time spread across multiple weeks.\n\n\nReviewing\n\nQuality assurance (eg testing, replication and detailing improvements)\nReview processes and code\nRecommend ways to optimise for reduced run-times and lower costs\nWorkflows, pipelines and reproducibility\n\n\n\nHands-on\n\nAdditional capacity\nMethods appraisal\nOutsourced projects\nOutsourced data dept\nWorkflows, pipelines and reproducibility\nData preparation\nResearch and analysis"
+  },
+  {
+    "objectID": "services.html#technical-competence",
+    "href": "services.html#technical-competence",
+    "title": "Mike’s services",
+    "section": "Technical competence",
+    "text": "Technical competence\nThere are many data related tasks I can help with. The best place to find out more is to look at my blog or drop me an email. Have a look at my tools page to give an idea of the software I work with.\n\n\n email Mike"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "MikeRSpencer",
+    "section": "",
+    "text": "Navigating the data landscape is hard. We’d all love to achieve our lofty goals, but the distance to them from our reality seems larger than ever. I help people and organisations bridge the gap between their starting points and goals.\nWhat I bring is the experience to chart a course to an effective solution, and helping you get there in an efficient way."
+  },
+  {
+    "objectID": "index.html#services",
+    "href": "index.html#services",
+    "title": "MikeRSpencer",
+    "section": "Services",
+    "text": "Services\nPick a time that suits you to talk through the challenge you’d like to solve. For more information see my services page.\n\n\n email Mike\n\n\n\n\nHands-on\n\nResearch and analysis\nReports and dashboards\nResearch questions answered\nStandalone, outsourced projects\nWorkflows, pipelines and reproducibility\nData preparation\nAutomation\n\n\n\nQuality assurance\n\nExternal review\nSupport existing teams and staff\nImprove existing approaches\nTechnical validation\n\n\n\nLeadership\n\nChief Data Officer as a service\nRecruitment\nGap analysis and staff development\nMentoring and capacity building"
+  },
+  {
+    "objectID": "index.html#highlights",
+    "href": "index.html#highlights",
+    "title": "MikeRSpencer",
+    "section": "Highlights",
+    "text": "Highlights\nClick on an image to view my previous work."
+  },
+  {
+    "objectID": "tools.html",
+    "href": "tools.html",
+    "title": "Software and tools",
+    "section": "",
+    "text": "This is a non-exhaustive list of the software and data types I work with. For examples please see my blog or get in touch to discuss your support requirements.\n\n\n email Mike\n\n\n\nProgramming\n\nR: Statistical and programming software\nRStudio: Development environment for R\nQuarto, LaTeX and Markdown: Document automation\nLinux, Bash and associated tools: for scaling and automation\nGit: Version control software (for use with Github, Bitbucket, Gitlab, Codeberg, etc.)\nKate IDE a lightweight development environment\n\nSpatial and GIS\n\nGRASS: Geographic information system\nQGIS: Geographic information system\n\nData storage\n\nSQLite, PostgreSQL, MySQL\nParquet, Arrow and partitioned data\n\nOther\n\nScribus: Desktop publishing\nLogseq: personal knowledge management - easy notetaking and information retrieval\nKeePassXC: password management\n\n\nMy operating system of choice is Fedora, which is built on Linux. A lot of the software on this page is also available for Windows and Macs. I switched from using Windows to Linux in early 2011 and have not regretted the decision.\nI’ve a help wiki of resources I find useful. Hopefully you find them useful too!\nSome of the software listed above have great communities, here are those I work with:\n\nEdinbR a meetup for users of R\nOSGeo:UK is an umbrella organisation for spatial software\nPyData Edinburgh a meetup for users of Python"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Mike’s Blog",
+    "section": "",
+    "text": "Welcome to the blog section of Mike’s website. Here you can find news, methods, exploration, data ideas, talks, projects and more.\nYou can follow this blog using the RSS feed \nBlog’s are not written overnight, so while I build a library of posts please have a look at my old academic blog Scottish Snow.\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Mike",
+    "section": "",
+    "text": "Mike is a data professional supporting organisations with leadership, research, scaling, automation and more. His background is in climate science, and has since worked in a range of fields including economics, sociology, agriculture, mental health, finance and social care. Across these domains Mike has used data skills like programming, GIS, data management, modelling, and visualisation to solve challenges and help organisations find solutions.\nMike has a PhD from the University of Edinburgh, where he studied snow hydrology. His research was based around a historic dataset (Snow Survey of Great Britain), which he used to demonstrate a link between snow cover and climate fluctuations and better understand snow cover and melt frequency through computer simulation, machine learning and statistics. You can read more about Mike’s research on his (retired) academic blog, scottishsnow.\nPrior to his PhD Mike worked as a hydrologist for Environment Agency Wales and Halcrow Group Ltd. He worked on projects including river and coastal flood mapping, flood defence scheme design, river re-alignment, flood forecasting (operationally and model development) and flood risk assessment. Mike graduated from Lancaster University in 2004 with a BSc (hons) in Environmental Science.\nMike is a fellow of the Royal Statistical Society and member of the Society of Research Software Engineers."
+  },
+  {
+    "objectID": "about.html#contact-links",
+    "href": "about.html#contact-links",
+    "title": "About Mike",
+    "section": "Contact links",
+    "text": "Contact links\nPlease use these to follow my work or get in touch!\n\n consult@mikerspencer.com\n Github mikerspencer\n LinkedIn mikerspencer\n Mastodon @mikerspencer@mastodon.scot\n ORCID 0000-0003-1472-2082\n Pixelfed @mikerspencer@pixelfed.scot\n RSS updates for this site\n Scottish Snow blog\n Zenodo publications"
+  }
+]
