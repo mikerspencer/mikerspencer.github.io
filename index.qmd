@@ -4,8 +4,6 @@ title: "MikeRSpencer"
 
 ![](img/logo_trans.png){fig-alt="Logo with the website address and a tagline of human insight for your data needs."}
 
-
-
 Navigating the data landscape is hard.
 We'd all love to achieve our lofty goals, but the distance to them from our reality seems larger than ever. I help people and organisations bridge the gap between their starting points and goals.
 
