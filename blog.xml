@@ -10,6 +10,36 @@
 <atom:link href="https://mikerspencer.com/blog.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.9.37</generator>
-<lastBuildDate>Tue, 24 Nov 2026 13:31:31 GMT</lastBuildDate>
+<lastBuildDate>Wed, 25 Nov 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>TravelTech meetup talk</title>
+  <dc:creator>Mike Spencer</dc:creator>
+  <link>https://mikerspencer.com/blog/2026-11-25_traveltech/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p align="center">
+<iframe title="Pixelfed Post Embed" src="https://pixelfed.scot/p/mikerspencer/985620994870045308/embed?caption=true&amp;likes=false&amp;layout=full" class="pixelfed__embed" style="max-width: 100%; border: 0" width="400" allowfullscreen="allowfullscreen">
+</iframe>
+<script async="" defer="" src="https://pixelfed.scot/embed.js"></script>
+</p>
+<p>I spoke at Edinburgh’s <a href="https://luma.com/bv0zq4gg?tk=eiWFAk">TravelTech meetup</a> last night. It’s a friendly event organised by <a href="https://www.linkedin.com/in/joshuaryansaha/">Joshua Ryan-Saha</a> and <a href="https://www.linkedin.com/in/maddy-burgoyne-4061911a3/">Maddy Burgoyne</a>.</p>
+<p>My talk was on using <a href="https://www.openstreetmap.org/">OpenStreetMap</a> data, despite the session topic no AI was involved. I think it was appropriate as I included tips on accessing OSM data in a sustainable way and structured data is very much <em>AI ready</em>.</p>
+<p>You can view my slides on Zenodo: <a href="https://doi.org/10.5281/zenodo.24531364">10.5281/zenodo.24531364</a></p>
+<p>I spoke about some of the ways I’ve used OSM data in the past, along with a challenge to the community about Le Tour De France preparedness! Joshua asked a great question on what am I currently working on. I took a sabbatical in the summer and cycled to Denmark with my family. It was a great opporunity to compare communities between home and the three countries we cycled through. Unsurpringly, I had lots of thoughts about accommodation and resilience! Here’s my notebook page, hopefully I’ll get to look at some of these in 2027:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://mikerspencer.com/blog/2026-11-25_traveltech/IMG_20261125_144404190_min.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="Notebook page with: campsite density, distance, osm tent category, population adjustment, riding distance. Emergency resilience, many fire stations, UK services cut. Swimming deaths by country..." width="500"></p>
+</figure>
+</div>
+
+
+
+ ]]></description>
+  <guid>https://mikerspencer.com/blog/2026-11-25_traveltech/</guid>
+  <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
+</item>
 </channel>
 </rss>

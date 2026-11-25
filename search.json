@@ -14,25 +14,18 @@
     "text": "Technical competence\nThere are many data related tasks I can help with. The best place to find out more is to look at my blog or drop me an email. Have a look at my tools page to give an idea of the software I work with.\n\n\n email Mike"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "MikeRSpencer",
+    "objectID": "blog/2026-11-25_traveltech/index.html",
+    "href": "blog/2026-11-25_traveltech/index.html",
+    "title": "TravelTech meetup talk",
     "section": "",
-    "text": "Navigating the data landscape is hard. We’d all love to achieve our lofty goals, but the distance to them from our reality seems larger than ever. I help people and organisations bridge the gap between their starting points and goals.\nWhat I bring is the experience to chart a course to an effective solution, and helping you get there in an efficient way."
+    "text": "I spoke at Edinburgh’s TravelTech meetup last night. It’s a friendly event organised by Joshua Ryan-Saha and Maddy Burgoyne.\nMy talk was on using OpenStreetMap data, despite the session topic no AI was involved. I think it was appropriate as I included tips on accessing OSM data in a sustainable way and structured data is very much AI ready.\nYou can view my slides on Zenodo: 10.5281/zenodo.24531364\nI spoke about some of the ways I’ve used OSM data in the past, along with a challenge to the community about Le Tour De France preparedness! Joshua asked a great question on what am I currently working on. I took a sabbatical in the summer and cycled to Denmark with my family. It was a great opporunity to compare communities between home and the three countries we cycled through. Unsurpringly, I had lots of thoughts about accommodation and resilience! Here’s my notebook page, hopefully I’ll get to look at some of these in 2027:"
   },
   {
-    "objectID": "index.html#services",
-    "href": "index.html#services",
-    "title": "MikeRSpencer",
-    "section": "Services",
-    "text": "Services\nPick a time that suits you to talk through the challenge you’d like to solve. For more information see my services page.\n\n\n email Mike\n\n\n\n\nHands-on\n\nResearch and analysis\nReports and dashboards\nResearch questions answered\nStandalone, outsourced projects\nWorkflows, pipelines and reproducibility\nData preparation\nAutomation\n\n\n\nQuality assurance\n\nExternal review\nSupport existing teams and staff\nImprove existing approaches\nTechnical validation\n\n\n\nLeadership\n\nChief Data Officer as a service\nRecruitment\nGap analysis and staff development\nMentoring and capacity building"
-  },
-  {
-    "objectID": "index.html#highlights",
-    "href": "index.html#highlights",
-    "title": "MikeRSpencer",
-    "section": "Highlights",
-    "text": "Highlights\nClick on an image to view my previous work."
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Mike’s Blog",
+    "section": "",
+    "text": "Welcome to the blog section of Mike’s website. Here you can find news, methods, exploration, data ideas, talks, projects and more.\nYou can follow this blog using the RSS feed \nBlog’s are not written overnight, so while I build a library of posts please have a look at my old academic blog Scottish Snow.\n\n\n\n\n\n\n\n\n\n\n\n\nTravelTech meetup talk\n\n\nUsing OpenStreetMap for tourism in Scotland\n\n\n\nMike Spencer\n\n\nNov 25, 2026\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "tools.html",
@@ -42,11 +35,25 @@
     "text": "This is a non-exhaustive list of the software and data types I work with. For examples please see my blog or get in touch to discuss your support requirements.\n\n\n email Mike\n\n\n\nProgramming\n\nR: Statistical and programming software\nRStudio: Development environment for R\nQuarto, LaTeX and Markdown: Document automation\nLinux, Bash and associated tools: for scaling and automation\nGit: Version control software (for use with Github, Bitbucket, Gitlab, Codeberg, etc.)\nKate IDE a lightweight development environment\n\nSpatial and GIS\n\nGRASS: Geographic information system\nQGIS: Geographic information system\n\nData storage\n\nSQLite, PostgreSQL, MySQL\nParquet, Arrow and partitioned data\n\nOther\n\nScribus: Desktop publishing\nLogseq: personal knowledge management - easy notetaking and information retrieval\nKeePassXC: password management\n\n\nMy operating system of choice is Fedora, which is built on Linux. A lot of the software on this page is also available for Windows and Macs. I switched from using Windows to Linux in early 2011 and have not regretted the decision.\nI’ve a help wiki of resources I find useful. Hopefully you find them useful too!\nSome of the software listed above have great communities, here are those I work with:\n\nEdinbR a meetup for users of R\nOSGeo:UK is an umbrella organisation for spatial software\nPyData Edinburgh a meetup for users of Python"
   },
   {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "Mike’s Blog",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "MikeRSpencer",
     "section": "",
-    "text": "Welcome to the blog section of Mike’s website. Here you can find news, methods, exploration, data ideas, talks, projects and more.\nYou can follow this blog using the RSS feed \nBlog’s are not written overnight, so while I build a library of posts please have a look at my old academic blog Scottish Snow.\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Navigating the data landscape is hard. I help people and organisations bridge the gap between their starting points and goals.\nWhat I bring is the experience to chart a course to an effective solution, which helps you get there in an efficient way."
+  },
+  {
+    "objectID": "index.html#services",
+    "href": "index.html#services",
+    "title": "MikeRSpencer",
+    "section": "Services",
+    "text": "Services\nGet in touch to arrange a time that suits you to talk through a challenge you’d like to solve. For more information see my services page.\n\n\n email Mike\n\n\n\n\nHands-on\n\nResearch and analysis\nReports and dashboards\nResearch questions answered\nStandalone, outsourced projects\nWorkflows, pipelines and reproducibility\nData preparation\nAutomation\n\n\n\nQuality assurance\n\nExternal review\nSupport existing teams and staff\nImprove existing approaches\nTechnical validation\n\n\n\nLeadership\n\nChief Data Officer as a service\nRecruitment\nGap analysis and staff development\nMentoring and capacity building"
+  },
+  {
+    "objectID": "index.html#highlights",
+    "href": "index.html#highlights",
+    "title": "MikeRSpencer",
+    "section": "Highlights",
+    "text": "Highlights\nClick on an image to view my previous work."
   },
   {
     "objectID": "about.html",
