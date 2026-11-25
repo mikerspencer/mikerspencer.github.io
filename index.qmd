@@ -5,15 +5,15 @@ title: "MikeRSpencer"
 ![](img/logo_trans.png){fig-alt="Logo with the website address and a tagline of human insight for your data needs."}
 
 Navigating the data landscape is hard.
-We'd all love to achieve our lofty goals, but the distance to them from our reality seems larger than ever. I help people and organisations bridge the gap between their starting points and goals.
+I help people and organisations bridge the gap between their starting points and goals.
 
-What I bring is the experience to chart a course to an effective solution, and helping you get there in an efficient way.
+What I bring is the experience to chart a course to an effective solution, which helps you get there in an efficient way.
 
 ---
 
 ## Services
 
-Pick a time that suits you to talk through the challenge you'd like to solve.
+Get in touch to arrange a time that suits you to talk through a challenge you'd like to solve.
 For more information see [my services](services.qmd) page.
 
 
