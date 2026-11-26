@@ -10,7 +10,7 @@ title: "Mike's services"
 I've worked through lots of data-related problems in my career and these cover a wide variety of domains.
 What I can do for you fits into three different types of support: leadership, review and hands-on.
 
-The kinds data problems I've worked with include GIS/spatial, surveys, engineering pipelines, training, recruitment, and more.
+The kinds of data problems I've worked with include GIS/spatial, surveys, engineering pipelines, training, recruitment, and more.
 Have a look at my [blog](blog.qmd) for examples.
 
 [{{< fa envelope >}} Please get in touch](mailto:consult@mikerspencer.com), especially if you have a data problem that doesn't neatly fit into one of these!
